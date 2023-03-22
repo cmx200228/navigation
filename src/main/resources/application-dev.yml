@@ -1,0 +1,14 @@
+server:
+  port: 17283
+http:
+  maxTotal: 200
+  defaultMaxPerRoute: 50
+  connectTimeout: 1000
+  connectionRequestTimeout: 500
+  socketTimeout: 5000
+  staleConnectionCheckEnabled: true
+gaode:
+#  key: 353832619c2a56f41eab179efe044c4d
+  key: ec8868d8d9367d24f98fa85b8b7bf1ba #有私钥的key
+  url: https://restapi.amap.com/v5/direction/walking
+  privateKey: db7cb4bcafa68eeb480c4a9eec13e1d7
